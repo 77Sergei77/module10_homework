@@ -1,0 +1,129 @@
+{
+a:hover{
+    color: #0000EE;
+}
+.cardP {
+    width: 300px;
+    height: 300px;
+    background-color: #f0e515;
+}
+.cardP:active {
+    background-color: #09d0f8;
+    color: #00eb10;
+}
+.buttonP{
+    width: 70px;
+    height: 30px;
+}
+.buttonP:active {
+    transform: scale(2,2);
+}
+.liP:nth-child(1) {
+    text-transform: uppercase;
+    color: #00ff37;
+}
+.liP:nth-child(3) {
+    text-transform: uppercase;
+    color: #00ff37;
+}
+.liP:nth-child(5) {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #00ff37;
+    
+}
+.liP:nth-child(5):hover {
+    color: #ca1818;
+}
+.inputP:first-child {
+    color: #ca1818;
+}
+.inputP:last-child {
+    color:#00ff37;
+}
+.inputP:nth-child(2){
+    color: orange;
+}
+.inputP:nth-last-child(2){
+    color: #f0e515;
+}
+.inputP:nth-child(3n){
+    font-size: 24px;
+}
+.cardP2 {
+    width: 250px;
+    height: 250px;
+    background-color: #ebda96;
+}
+.cardP2:only-child  {
+    width: 150px;
+    height: 150px;
+    background-color: #47d400;
+}
+.textP:nth-of-type(1) {
+    color: #e118d3;
+}
+.textP:nth-of-type(2n) {
+    color: #baef7e;
+}
+.textP:nth-last-of-type(1) {
+    color: #f56962;
+}
+.textP:nth-of-type(3n) {
+    color: #5118e1;
+}
+.textP:nth-of-type(4) {
+    color: rgb(40, 40, 236);
+    font-size: 24px;
+}
+}
+.spanC {
+    font-style: italic;
+    color: red;
+}
+.textC {
+    font-size: 24px;
+
+    
+}
+.cardC {
+    width: 30%;
+    margin: 0 auto;
+    margin:10px 20px 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonC {
+    border: #2d8800 solid 2px;
+    font-size: 20px;
+}
+.buttonC:hover{
+    background-color: #919191;
+}
+.buttonC:active{
+    background-color: #721515;
+}
+.cardG {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 2px;
+    height: 500px;
+    width: 100%;
+}
+.cardG1 {
+    height: 100px;
+    background-color: #00eb10;
+    grid-column: 2/span 3;
+    grid-row: 2/2;
+}
+.cardG2 {
+    height: 100px;
+    width: 100px;
+    background-color: #1c2e94;
+}
+.cardG3 {
+    height: 100px;
+    width: 100px;
+    background-color: #5ca8ff;
+}
